@@ -1,0 +1,7 @@
+auth:
+    path: /auth
+    methods: ['POST']
+api_post_show:
+    path:       /poster
+    controller: App\Controller\RapidApiController::getData
+    methods:    GET
